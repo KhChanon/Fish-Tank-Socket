@@ -27,7 +27,7 @@ public class MyApp implements ActionListener {
     public void actionPerformed(ActionEvent e) { 
     	if (e.getSource() == addClientButton) {
 			try {
-				Socket socket = new Socket("localhost", 5000);
+				Socket socket = new Socket("localhost", 3000);
 	    		Client client = new Client(socket,aquariumNumber);
 	    		aquariumNumber++;
 	     	   	client.readMessage();

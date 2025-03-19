@@ -170,7 +170,7 @@ public class Client extends JFrame{
 	   }
 	
 	public static void main(String args[]) throws UnknownHostException, IOException {
-		Socket socket = new Socket("localhost", 5000);
+		Socket socket = new Socket("localhost", 3000);
 		Client client = new Client(socket,1);
  	   	client.readMessage();
 	}
