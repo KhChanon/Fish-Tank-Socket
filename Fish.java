@@ -44,7 +44,7 @@ public class Fish extends JPanel implements Serializable {
 		this.speedY = randomSpeed();
 		this.imgStyle = randomStyle();
 		this.imgSize = randomSize();
-		ImageIcon icon = new ImageIcon("C:\\Users\\Chanon\\Desktop\\Work\\Java\\Assignment 3\\src\\Fish\\Fish"+imgStyle+".png");
+		ImageIcon icon = new ImageIcon("Fish/Fish"+imgStyle+".png");
 		Image img = icon.getImage();
 		if(speedX <= 0)
 			img = flipImage(img);

@@ -136,7 +136,7 @@ public class Client extends JFrame{
 							msfFromGroupChat = buffReader.readObject();
 							Fish fish = (Fish) msfFromGroupChat;
 							add(fish);
-							fish.setImage("C:\\Users\\Chanon\\Desktop\\Work\\Java\\Assignment 3\\src\\Fish\\Fish"+fish.imgStyle+".png");
+							fish.setImage("Fish/Fish"+fish.imgStyle+".png");
 							fish.setBounds(fish.getX(), fish.getY(), fish.imgSize, fish.imgSize);
 							Fishs.add(fish);
 						} catch (ClassNotFoundException e) {
